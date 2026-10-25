@@ -1,0 +1,22 @@
+{
+  "name": "token-riot-site",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "type": "module",
+  "scripts": {
+    "build": "node build-game.mjs && node build-landing.mjs && node build-store.mjs",
+    "check": "node check-site.mjs",
+    "test": "node download-test.mjs",
+    "start": "node preview.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marianocarreira/tokenriotwebsite.git"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
