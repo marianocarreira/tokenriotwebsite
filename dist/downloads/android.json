@@ -1,97 +1,97 @@
 {
-  "filename": "TOKEN-RIOT-android-v0.1.15.apk",
-  "bytes": 144485922,
-  "sha256": "ce077351de3ae4f9127fa06f80723eaf9b2fe6c3bec014bf46bd5e9be52c7bb8",
+  "filename": "TOKEN-RIOT-android-v0.1.16.apk",
+  "bytes": 144543013,
+  "sha256": "799e118c4f6cf484dbcdae796b4e9bb743b25632b276369238386eea364b9f5b",
   "parts": [
     {
-      "file": "token-riot-ce077351de3a-00.bin",
+      "file": "token-riot-799e118c4f6c-00.bin",
       "bytes": 8388608,
-      "sha256": "cf9b4850485ef3381435e9937a9313e0b48ee2f6d6a94054ec8032713f2da365"
+      "sha256": "0e39c0cc2d0987622273d371f76cb2c291b909df693cd144c93b938e9e86d892"
     },
     {
-      "file": "token-riot-ce077351de3a-01.bin",
+      "file": "token-riot-799e118c4f6c-01.bin",
       "bytes": 8388608,
-      "sha256": "668ccfc1012e6f2b7808ca8cdb01181b813d6b549474ef52fbb80039f0c3ce7d"
+      "sha256": "e2891fadbdfc89a9c276a16169884688b8af1ae2649ea4a38521d54637f4ee1d"
     },
     {
-      "file": "token-riot-ce077351de3a-02.bin",
+      "file": "token-riot-799e118c4f6c-02.bin",
       "bytes": 8388608,
-      "sha256": "1008b8541589e84dc9cb7cf7d488d8080ca15405289d3226a9be13aefba67add"
+      "sha256": "af5b90300cff6837a029e1e319e1151032c7dd684901856991299f34ecd38b09"
     },
     {
-      "file": "token-riot-ce077351de3a-03.bin",
+      "file": "token-riot-799e118c4f6c-03.bin",
       "bytes": 8388608,
-      "sha256": "547604fee28109ff335f8dde298810169205af1180a91e81584fdf8a60c9a81a"
+      "sha256": "13f8bb18fcf36e1e336fbd36b7defcb167cda931d227193ec6ed9bbcd24df15c"
     },
     {
-      "file": "token-riot-ce077351de3a-04.bin",
+      "file": "token-riot-799e118c4f6c-04.bin",
       "bytes": 8388608,
-      "sha256": "57f2f1f3b93d8a118e47eafbee0c889bf90b970be40e27a2f4f94b872d98d385"
+      "sha256": "d979fb2e11ed8e04ecbeb636d3702c75d20a7fd17205f4d13bdafb2b792251a3"
     },
     {
-      "file": "token-riot-ce077351de3a-05.bin",
+      "file": "token-riot-799e118c4f6c-05.bin",
       "bytes": 8388608,
-      "sha256": "f13671706866fbd8052abf3639a675948eb208e523f126e6a9406bdcbbd43679"
+      "sha256": "ceac6a25592811d49acc4498297778bbbf5c642c626f06cb34d4545d9d0ca531"
     },
     {
-      "file": "token-riot-ce077351de3a-06.bin",
+      "file": "token-riot-799e118c4f6c-06.bin",
       "bytes": 8388608,
-      "sha256": "de4b16b331d1165241ab6d36bcaf28dc90e65686a7161ebfd483b56afe501447"
+      "sha256": "64c2a91bc96478c35901adc89be8390a74da09041fb6c8fa21dd68fdecf8495c"
     },
     {
-      "file": "token-riot-ce077351de3a-07.bin",
+      "file": "token-riot-799e118c4f6c-07.bin",
       "bytes": 8388608,
-      "sha256": "1f0553cddf724ed16e9e5f1dac1f4f31115b522ffacb3a7157356ddaa056f68f"
+      "sha256": "759f4c6a59311ac32c18fa4de04c50a6213a4a27f96edbd4f8e1f3eb1d68f2a2"
     },
     {
-      "file": "token-riot-ce077351de3a-08.bin",
+      "file": "token-riot-799e118c4f6c-08.bin",
       "bytes": 8388608,
-      "sha256": "d76c671397d6a7bd00f51ae801d3568783a8a22c176e3541de181f3ca1e607de"
+      "sha256": "a7a983cf4e2fe3d21dd38dfa3e18f287580a75bcc10a617e6b26b43e4b280fdc"
     },
     {
-      "file": "token-riot-ce077351de3a-09.bin",
+      "file": "token-riot-799e118c4f6c-09.bin",
       "bytes": 8388608,
-      "sha256": "00199a9276c800c277be68e48aba761c596ef87c04b1f70d09c3b005ce534cd1"
+      "sha256": "98f6b3f7801d989e032b35dc4587d42d03658d92de6fd9a238e1e0ce5a615720"
     },
     {
-      "file": "token-riot-ce077351de3a-10.bin",
+      "file": "token-riot-799e118c4f6c-10.bin",
       "bytes": 8388608,
-      "sha256": "c95cf85db1bc854fd6bd826ea0012bf767fa6d859c3fd392d80146970aeb49f8"
+      "sha256": "e25ce6a02ae36bba6a6defc9b3d8d37fb0be65887c28f00393e3711e0a07ec28"
     },
     {
-      "file": "token-riot-ce077351de3a-11.bin",
+      "file": "token-riot-799e118c4f6c-11.bin",
       "bytes": 8388608,
-      "sha256": "a61dbcf9f957f5e1729b348a696bd1a897d1facd3e6b07e365ff4f2967de9555"
+      "sha256": "37974a9bd60047610def66f969e05db1b82ea1da9dacf40f18902f7c479e88eb"
     },
     {
-      "file": "token-riot-ce077351de3a-12.bin",
+      "file": "token-riot-799e118c4f6c-12.bin",
       "bytes": 8388608,
-      "sha256": "6bdc87c7407eb0f35a28892b868844c27889de1ad40806b03a8e9282bb2d7143"
+      "sha256": "84142802194b4a6f963e38ceea505316a4ac7c123773cf1b5f8cdf4c135338b0"
     },
     {
-      "file": "token-riot-ce077351de3a-13.bin",
+      "file": "token-riot-799e118c4f6c-13.bin",
       "bytes": 8388608,
-      "sha256": "7accd948d6463c9bb75c2c040c539db6c162f23d4f7705b76a10c9433dc67dc8"
+      "sha256": "7df726c36f532eed17d4aa308d716ef5ecc16de2143176d3312dae73f28459f2"
     },
     {
-      "file": "token-riot-ce077351de3a-14.bin",
+      "file": "token-riot-799e118c4f6c-14.bin",
       "bytes": 8388608,
-      "sha256": "fb4d699145920aa88f9b49933083424edfd7758f9279bc6483889ca21095368e"
+      "sha256": "6426162a8de269d4c2b139780b6eeaeb66065e52f7ee254489870cd8c7f0493b"
     },
     {
-      "file": "token-riot-ce077351de3a-15.bin",
+      "file": "token-riot-799e118c4f6c-15.bin",
       "bytes": 8388608,
-      "sha256": "ddc61d7757efcaeaf5b4d7d5bbfa1e23a29291093c5ded84b16c128e4ac7f1cb"
+      "sha256": "fdad65251b000d1b4c42554fe1adcc440912ed20a802341be2f50ab3cd3d75d8"
     },
     {
-      "file": "token-riot-ce077351de3a-16.bin",
+      "file": "token-riot-799e118c4f6c-16.bin",
       "bytes": 8388608,
-      "sha256": "eea6c79501981f6e743405ea70ca0a60b44d8be55996825b19220e3990273c27"
+      "sha256": "9e861bdd6cec8f6d0ed412eda57b5b979972522ba2e3d872cc83c821a68a4402"
     },
     {
-      "file": "token-riot-ce077351de3a-17.bin",
-      "bytes": 1879586,
-      "sha256": "b6faf3035dde340d9b5d682ff9f68445c67ade8782c3e0fbf69e3ab2752baa23"
+      "file": "token-riot-799e118c4f6c-17.bin",
+      "bytes": 1936677,
+      "sha256": "3300f9245d8fc8c73199d451cfc682199c155fe525bb580ac5da7098fdd73040"
     }
   ]
 }

@@ -14,4 +14,4 @@ window.fetch=async(url,options)=>{
  return nativeFetch(url,options);
 };
 await import('./game-src/app.js');
-const leave=document.createElement('a');leave.href='../';leave.className='site-return';leave.textContent='← Volver al sitio';document.querySelector('header').append(leave);
+const leave=document.createElement('a');leave.href='../';leave.className='site-return';leave.textContent='← Back to site';document.querySelector('header').append(leave);

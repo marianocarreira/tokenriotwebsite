@@ -1,12 +1,12 @@
-# TOKEN RIOT — sitio y juego web
+# TOKEN RIOT website and browser game
 
-Código del sitio https://www.token-riot.com/: presentación, juego web en `/play/`
-y descarga directa de Android. El juego completo y su proyecto Android viven en
-https://github.com/marianocarreira/tokenriot.
+Source for https://www.token-riot.com/: presentation, browser game at `/play/`
+and direct Android APK download. The desktop/Android game project is maintained
+at https://github.com/marianocarreira/tokenriot.
 
-## Ejecutar y verificar
+## Development
 
-Requiere Node.js 22 o posterior.
+Requires Node.js 22 or later.
 
 ```sh
 npm ci
@@ -16,26 +16,32 @@ npm test
 npm start
 ```
 
-Abrí http://127.0.0.1:4174/. El servidor de vista previa sirve solo `dist/`.
-`game-src/` contiene el código del juego usado por el bundle web. `dist/` conserva
-el HTML, CSS y los medios del sitio como fuentes mantenidas; no debe borrarse
-como si todo su contenido fuera un caché regenerable. La descarga del APK verifica
-el tamaño y SHA-256 de cada parte; las pruebas verifican también el archivo total.
+Open http://127.0.0.1:4174/. The preview server serves only `dist/`.
+`game-src/` contains source for the browser bundle. HTML, CSS and media in
+`dist/` are also maintained sources: do not remove that directory as a cache.
+APK downloads verify each part's size and SHA-256; tests also verify the whole APK.
 
-El sitio no necesita claves de API para jugar. El formulario opcional de comunidad
-envía los datos elegidos por el visitante a contact@token-riot.com mediante
-FormSubmit; no crea una cuenta de jugador. La tienda es independiente, privada
-y propietaria. `/store/` contiene solamente un enlace a https://www.token-riot.store/.
-La configuración interna de hosting no se incluye en este repositorio público.
+## Languages and data
 
-## Licencia y colaboración
+The presentation and browser game support English (default), Spanish and
+Simplified Chinese, with persistent selectors. The game inherits the site's
+choice on first use unless its own preference was already saved. Forms, dynamic
+messages, accessibility labels and the privacy/satire notice are localized.
+Repository documentation is English only.
 
-Copyright (C) 2026 Mariano Carreira.
-Código original: **GNU GPL versión 3 exclusivamente (GPL-3.0-only)**.
-Véanse LICENSE, COPYING, COPYRIGHT.md y LICENSE-SCOPE.md. La licencia no transfiere
-el copyright. Los recursos no software y los componentes de terceros conservan
-sus derechos; no se declara que todas las imágenes y música sean contenido libre.
+Playing requires no API key. The optional community form sends the visitor's
+chosen information through FormSubmit to contact@token-riot.com; it does not
+create a player account. The Store is a separate private proprietary project.
+`/store/` contains only a link to https://www.token-riot.store/.
+Internal hosting identities and credentials are not included in this public repo.
 
-El historial público comienza con una publicación saneada. No incluye el código
-de la store, sus fuentes ni datos privados. Consultá CONTRIBUTING.md, CLA.md y
-SECURITY.md. Único contacto: **contact@token-riot.com**.
+## Copyright and contributions
+
+Copyright (C) 2026 Mariano Carreira. Original software uses **GPL-3.0-only**;
+see LICENSE, COPYING, COPYRIGHT.md and LICENSE-SCOPE.md. Licensing does not
+transfer copyright. Separate media and third-party components retain their
+respective rights; not all multimedia content is freely licensed.
+
+The public history starts with sanitized source and excludes Store code and
+private development data. See CONTRIBUTING.md, CLA.md and SECURITY.md.
+Sole project contact: **contact@token-riot.com**.

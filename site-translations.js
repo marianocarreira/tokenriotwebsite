@@ -354,8 +354,8 @@ export const translations = [
     "DOWNLOAD ANDROID APK "
   ],
   [
-    "BETA 0.1.15 · APK DE PRUEBA · 139 MB · JUEGO SIN CONEXIÓN EN ANDROID",
-    "BETA 0.1.15 · TEST APK · 139 MB · OFFLINE GAMEPLAY ON ANDROID"
+    "BETA 0.1.16 · APK DE PRUEBA · 139 MB · JUEGO SIN CONEXIÓN EN ANDROID",
+    "BETA 0.1.16 · TEST APK · 139 MB · OFFLINE GAMEPLAY ON ANDROID"
   ],
   [
     "Cancelar descarga",
@@ -721,7 +721,7 @@ export const translations = [
 ["PROBALO POR TU CUENTA ONLINE", "try it by yourself online"], ["PROBALO POR TU CUENTA ONLINE ↗", "try it by yourself online ↗"]
 ];
 
-translations.push([' Un arcade cyberpunk de no ficción / BETA 0.1.15',' A Non-Fiction Cyberpunk Arcade / BETA 0.1.15'],['Próximamente','Coming Soon'],['Descargar Android','Download for Android'],['Unite a la comunidad ','Join the community '],['PROBALO POR TU CUENTA ONLINE ','try it by yourself online ']);
+translations.push([' Un arcade cyberpunk de no ficción / BETA 0.1.16',' A Non-Fiction Cyberpunk Arcade / BETA 0.1.16'],['Próximamente','Coming Soon'],['Descargar Android','Download for Android'],['Unite a la comunidad ','Join the community '],['PROBALO POR TU CUENTA ONLINE ','try it by yourself online ']);
 translations.push(
  ['PRÓXIMAMENTE','COMING SOON'],['Gadgets. Peluches. Figuras de acción.','Gadgets. Plushies. Action figures.'],
  ['Comprá la colección · Próximamente','Shop the collection · Coming soon'],

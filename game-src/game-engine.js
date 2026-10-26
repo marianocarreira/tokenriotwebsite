@@ -249,8 +249,10 @@ export class MissionBayGame{
   p.onPlatform=p.z>0&&p.vz===0&&this.platforms.some(platform=>inside(platform)&&p.z===platform.height);
 
   const pace=p.guarding ? .25 : p.crouching ? .4 : 1;
-  const dx=(input.right?1:0)-(input.left?1:0),dy=(input.down?1:0)-(input.up?1:0);p.moving=!!(dx||dy);
-  if(dx)p.face=dx;p.x+=dx*245*dt*pace;p.y=cap(p.y+dy*165*dt*pace,475,636);
+  const analog=Number.isFinite(input.moveX)&&Number.isFinite(input.moveY);
+  const dx=analog?input.moveX:(input.right?1:0)-(input.left?1:0),dy=analog?input.moveY:(input.down?1:0)-(input.up?1:0);p.moving=!!(dx||dy);
+  const stride=pace/Math.max(1,Math.hypot(dx,dy));
+  if(dx)p.face=dx<0?-1:1;p.x+=dx*245*dt*stride;p.y=cap(p.y+dy*165*dt*stride,475,636);
   p.x=cap(p.x,this.zone*1050+45,this.phase==='advance'?this.gate+40:this.gate-60);
   this.updateVacuum(dt);
   if(input.fire&&!p.needsFireRelease){if(!p.fireHeld)this.pressFire();else this.fire();}else if(!input.fire)this.releaseFire();

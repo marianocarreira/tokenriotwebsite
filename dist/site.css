@@ -65,3 +65,6 @@ html[data-theme=light]{color-scheme:light;--bg:#f3f6f7;--panel:#fff;--ink:#142a3
 .site-header .nav-play,.site-header #theme-toggle,.site-header #language-select{border:0;border-radius:0;background:transparent;box-shadow:none;text-decoration:none;color:var(--ink);height:54px;min-height:54px;max-height:54px;cursor:pointer}
 .site-header .nav-play:hover,.site-header #theme-toggle:hover,.site-header #language-select:hover{color:var(--ink);background:transparent;text-decoration:none}
 .site-header #language-select option{background:var(--panel);color:var(--ink)}
+
+/* Chinese glyph coverage and readable headings without extra font downloads. */
+html:lang(zh-CN){--display:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;--mono:"Microsoft YaHei","PingFang SC",monospace}html:lang(zh-CN) body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif}html:lang(zh-CN) .hero h1{font-size:clamp(44px,6vw,90px);line-height:1.2;letter-spacing:0}html:lang(zh-CN) .download h2{line-height:1.2;letter-spacing:0}#language-select{max-width:120px}
