@@ -31,7 +31,7 @@ Repository documentation is English only.
 
 Playing requires no API key. The optional community form sends the visitor's
 chosen information through FormSubmit to contact@token-riot.com; it does not
-create a player account. The Store is a separate private proprietary project.
+create a player account. The Store is publicly accessible; its code and administration remain private.
 `/store/` contains only a link to https://www.token-riot.store/.
 Internal hosting identities and credentials are not included in this public repo.
 
