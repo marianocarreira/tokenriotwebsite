@@ -45,3 +45,14 @@ respective rights; not all multimedia content is freely licensed.
 The public history starts with sanitized source and excludes Store code and
 private development data. See CONTRIBUTING.md, CLA.md and SECURITY.md.
 Sole project contact: **contact@token-riot.com**.
+
+## Book and comic
+
+These are separate products in the proprietary Store:
+
+- [Book: the making of TOKEN RIOT (register interest)](https://www.token-riot.store/?product=14-libro-filosofia-0&lang=en).
+- [Comic: view available PDF editions](https://www.token-riot.store/?product=15-comic-0&lang=en).
+
+Choose the publication language separately from the interface language. The
+website passes its selected language to the Store; unavailable editions cannot
+be ordered. A preorder interest registration does not charge the visitor.
